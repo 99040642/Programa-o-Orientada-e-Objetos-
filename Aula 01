@@ -1,0 +1,27 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.pooternoite;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author samuelrocha.rocha
+ */
+public class Pooternoite {
+
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+        
+        System.out.println("Seja bem -Vindo Samuel rocha");
+        
+        Scanner meuScanner = new Scanner (System.in);
+        System.out.println ("Entre com seu nome");
+        
+        String nome = meuScanner.nextLine();
+        System.out.println("Samuel: " + nome);
+                
+    }
+}
